@@ -5,7 +5,7 @@ player1 = Character(name='gaijin', health=100, damage=150,
                     color=Fore.LIGHTRED_EX)
 print(player1)
 
-player2 = Character(name='credit card', health=150, damage=1,
+player2 = Character(name='credit card', health=150, damage=1
                     color=Fore.LIGHTBLUE_EX)
 print(player2)
 
