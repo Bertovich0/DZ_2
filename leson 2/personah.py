@@ -28,3 +28,8 @@ class Character:
 
     def attack(self, target):
         target.take_damage(self.damage)
+
+    if: health > 0
+    take_damage(self, damage)
+    else: health < 0
+    print(КОНЕЦ БОЯ )
